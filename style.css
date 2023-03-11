@@ -14,14 +14,8 @@ h3{
 header{
   font-size: 13px;
 }
-.nav_bar{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-    height: 100px;
-    padding: 0 40px;
-    z-index: 999;
+.navbar{
+  padding-top: 0 !important;
 }
 .nav_content > ul{
     display: flex;
@@ -63,11 +57,10 @@ header{
     font-size: 25px;
 }
 .home_section{
-    margin-top: 90px;
+    margin-top: 65px;
 }
 .content_1 > p{
 font-size: 20px;
-font-weight: 600;
 }
 .content_2 > p{
     font-size: 40px;
@@ -137,7 +130,7 @@ font-weight: 600;
   color: #fff;
 }
 .card_section{
-    margin-top: 80px;
+    margin-top: 60px;
 }
 .card_main_div{
     display: flex;
@@ -165,11 +158,11 @@ font-weight: 600;
     margin-top: 269px;
 }
 .card_div:hover{
-    -webkit-transform: scale(1.2);
-      -moz-transform: scale(1.2);
-      -o-transform: scale(1.2);
-      -ms-transform: scale(1.2);
-      transform: scale(1.2);
+    -webkit-transform: scale(1);
+      -moz-transform: scale(1);
+      -o-transform: scale(1);
+      -ms-transform: scale(1);
+      transform: scale(1);
       -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=0.5)";
       filter: alpha(opacity=0.5);
       opacity: 0.5;
@@ -200,7 +193,6 @@ font-weight: 600;
     font-weight: 600;
   }
   .modern_content_div2{
-    font-weight: 600;
     line-height: 25px;
     font-size: 13px;
     
@@ -281,7 +273,7 @@ font-weight: 600;
     margin-top: 20px;
 }
 .benifits_section{
-    margin-top: 80px;
+    margin-top: 55px;
 }
 .price_pack >h3{
   font-weight: 600;
@@ -322,9 +314,6 @@ font-weight: 600;
     font-weight: 600;
 }
 .modern_section{
-    margin-top: 40px;
-}
-.twoImg_slider_section{
     margin-top: 20px;
 }
   .text_slider_section{
@@ -444,6 +433,10 @@ font-weight: 600;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 0px 3px;
     padding: 30px !important;
     border-radius: 20px;
+    background-image: url('./09ec467fbe0bdb62ed9abe828b5eb220f06fa19d.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .contact-lBox {
   width: 36%;
@@ -490,13 +483,12 @@ font-weight: 600;
 .style-input {
   position: relative;
   display: inline-block;
-  width: 300px;
-  border-bottom: 1px solid #6D6D6D;
+  width: 258px;
 }
 .style-input input, textarea {
   padding-left: 36px;
   margin-bottom: 0;
-  padding: 13px 0;
+  padding: 12px 13px;
   line-height: 1.5em;
   border-color: transparent;
   outline: none;
@@ -508,7 +500,7 @@ font-weight: 600;
   letter-spacing: 0px;
   appearance: none;
   transition: color 0.3s ease, background-color 0.3s ease, border-color 0.3s ease;
-  border-radius: 0;
+  border-radius: 10px;
   resize: none;
   text-overflow: ellipsis;
   color: #6D6D6D;
@@ -516,7 +508,7 @@ font-weight: 600;
   width: 100%;
 }
 .style-textarea {
-  width: 51vw;
+  width: 47vw;
 }
 .input1 {
   margin-bottom: 27px;
@@ -550,6 +542,10 @@ footer{
 }
 
 @media screen and (max-width:480px){
+
+  p{
+    font-size: 12px;
+  }
 
   .header_logo > img{
     width: 110px;
@@ -588,7 +584,7 @@ footer{
   }
   .contact-form{
     padding: 20px;
-    font-size: 13px;
+    font-size: 12px;
   }
   .contact-2Box > h1{
     font-size: 17px;
@@ -610,11 +606,10 @@ footer{
     font-weight: 600;
   }
   .style-input input{
-    font-size: 13px;
+    font-size: 12px;
   }
-  .text_slider{
-    height: 224px !important;
-    font-size: 13px;
+  .image_section{
+  margin-top: 20px;
   }
 
   .big_image{
@@ -629,6 +624,7 @@ footer{
   .contact-form{
     display: block;
     box-shadow: none;
+    width: 90% !important;
   }
   .small_image{
     display: flex;
@@ -642,6 +638,9 @@ footer{
   }
   .content_1 > p{
     font-size: 15px;
+  }
+  .slider_bottom_para{
+    display: none;
   }
   .content_2 > p{
     font-size: 20px;
@@ -660,10 +659,12 @@ footer{
   }
   .slide_bottom_div{
     display: block;
+    height: 130px;
     text-align: justify;
   }
   .slide_bottom_content > h3{
     font-size: 16px;
+    font-weight: 600;
   }
   .slide_bottom_content > h3 > p{
     font-size: 13px;
@@ -692,15 +693,12 @@ footer{
   .modern_content_div1 h3{
     font-size: 19px;
   }
-  .modern_content_div1 p {
-    font-size: 13px;
-  }
   .content_para{
     width: 100%;
   }
   .modern_content_div2 {
     margin: 0;
-    font-size: 13px;
+    font-size: 12px;
     line-height: 20px;
   }
   .benifits_content > h1{
@@ -737,8 +735,8 @@ footer{
   .image_div{
     padding: 2px;
   }
-  .slide_bottom_div{
-    height: 220px;
+  .slide_bottom_button{
+    float: right;
   }
   .modern_content_div2> ul > li:before{
     display: none;
@@ -773,6 +771,10 @@ footer{
   .image_div_small {
     margin: 3px;
   }
+  .image_div_small > img {
+    width: 196px !important;
+    height: 166px !important;
+  }
   .benifits_content > p{
     font-size: 13px;
   }
@@ -789,14 +791,15 @@ footer{
   .service_text{
     display: none;
   }
-  .service_content > div > a > i{
-    font-size: 40px;
+  .service_content > div > img{
+    width: 20px;
+    height: 20px;
   }
   .service_content > div > p{
     display: none;
   }
   .service_content > div > h3{
-    font-size: 13px;
+    font-size: 11px;
     font-weight: 600;
   }
   .contact-lBox{
@@ -825,6 +828,9 @@ footer{
     padding: 9px;
     cursor: pointer;
     font-size: 13px;
+  }
+  .contact_section{
+    margin: 0;
   }
   .nav_point > ul {
     margin: 0;
