@@ -396,31 +396,41 @@ font-size: 20px;
   width: 105px;
 }
 .circle_box {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: absolute;
-    width: 300px;
-    height: 300px;
-    border-radius: 50%;
-    background-color: #FFCC05;
-    top: 184px;
-    /* left: -150px; */
-    padding: 33px;
-    text-align: center;
-    flex-direction: column;
-    right: 74px;
-    z-index: 10;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  background-color: #FFCC05;
+  top: 184px;
+  /* left: -150px; */
+  padding: 33px;
+  text-align: center;
+  flex-direction: column;
+  right: 74px;
+  z-index: 10;
 }
 
 
 .circle_box h2 {
-    color: white;
+  color: white;
+  font-size: 22px;
+  letter-spacing: 1px;
+  line-height: 36px;
+}
+.circle_box > h2 > span{
+  color: black;
+    font-size: 28px;
 }
 .circle_box a {
     text-decoration: none;
     color: black;
     border-bottom: 2px solid black;
+}
+.circle_box > a > h5{
+  font-size: 17px;
 }
 
 .contact-form {
@@ -824,6 +834,9 @@ footer{
     padding: 0;
 
   }
+  .slide_bottom_content{
+    text-align: initial;
+  }
   .nav_point > ul > li{
     padding: 9px;
     cursor: pointer;
@@ -853,5 +866,8 @@ footer{
   }
   .card2_image_div > div >img{
     width: 300px;
+  }
+  .circle_box > h2 > span{
+    font-size: 20px;
   }
 }
