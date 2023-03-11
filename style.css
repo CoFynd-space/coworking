@@ -495,7 +495,7 @@ font-size: 20px;
   display: inline-block;
   width: 258px;
 }
-.style-input input, textarea {
+.style-input input, textarea, select {
   padding-left: 36px;
   margin-bottom: 0;
   padding: 12px 13px;
