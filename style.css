@@ -781,10 +781,10 @@ footer{
   .image_div_small {
     margin: 3px;
   }
-  .image_div_small > img {
+  /* .image_div_small > img {
     width: 196px !important;
     height: 166px !important;
-  }
+  } */
   .benifits_content > p{
     font-size: 13px;
   }
