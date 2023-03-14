@@ -218,7 +218,7 @@ font-size: 20px;
    height: 25px;
   }
   .service_content > div {
-    margin: 15px;
+    margin: 9px;
   }
   .service_content > div > h3{
    font-weight: 600;
@@ -417,7 +417,7 @@ font-size: 20px;
   font-size: 13px;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 0px 3px;
     padding: 30px !important;
-    border-radius: 20px;
+    border-radius: 10px;
     background-image: url('./09ec467fbe0bdb62ed9abe828b5eb220f06fa19d.jpg');
     background-position: center;
     background-repeat: no-repeat;
