@@ -262,7 +262,7 @@ font-size: 20px;
   .twoImg_slider{
     width: 100%;
     background-color: transparent;
-    background-image: linear-gradient(130deg, #FFCC05 0%, #ffe785 100%);
+    background: linear-gradient(90deg,#f7e0348a,#F7E034 100%);
   }
   .image_div{
     display: flex;
@@ -402,7 +402,7 @@ font-size: 20px;
     opacity: .5;
   }
   footer{
-    background: linear-gradient(90deg,#ffc883 0,#ffd200 100%);
+    background: linear-gradient(90deg,#f7e0348a,#F7E034 100%);
   }
   .upper_footer{
     width: 100%;
@@ -459,7 +459,7 @@ font-size: 20px;
   width: 250px;
   height: 250px;
   border-radius: 50%;
-  background-color: #FFCC05;
+  background: linear-gradient(90deg,#f7e0348a,#F7E034 100%);
   top: 184px;
   /* left: -150px; */
   padding: 33px;
