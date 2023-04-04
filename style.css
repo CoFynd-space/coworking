@@ -412,7 +412,7 @@ font-size: 20px;
     text-align: center;
     align-items: center;
     padding: 30px;
-    border-bottom: 1px solid #7a6363;
+    border-bottom: 1px solid #00000033;
   }
   .nav_point {
     display: flex;
