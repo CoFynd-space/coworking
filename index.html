@@ -16,12 +16,13 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
     integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
     crossorigin="anonymous"></script>
+    <!-- <script src="https://www.google.com/recaptcha/api.js?render=6LdwHAYlAAAAAJLaJo_8J8KvFA55WaBJJEydd6MO"></script> -->
 
 </head>
 
 <body>
   <header>
-    <nav class="navbar navbar-expand-lg navbar-light px-4 mt-4">
+    <!-- <nav class="navbar navbar-expand-lg navbar-light px-4 mt-4">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">
           <div class="header_logo">
@@ -32,8 +33,47 @@
           aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div style="font-weight: 600;" class="collapse navbar-collapse justify-content-center"" id="
+        <div style="font-weight: 600;" class="collapse navbar-collapse justify-content-center" id="
           navbarSupportedContent">
+          <ul class="navbar-nav mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Page</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Our Workspace</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Amenities</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Shop</a>
+            </li>
+          </ul>
+          <div class="button_form">
+            <form class="d-flex">
+              <div class="nav_btn_div">
+                <a><button class="nav_btn">Join Us Now</button></a>
+              </div>
+            </form>
+          </div>
+        </div>
+       </div>
+    </nav> -->
+    <nav class="navbar navbar-expand-lg navbar-light px-4 mt-4">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><div class="header_logo">
+          <img src="./Convenience with Cofynd 1.png" />
+        </div></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div style="font-weight: 600;" class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
           <ul class="navbar-nav mb-2 mb-lg-0">
             <li class="nav-item">
               <a class="nav-link active" aria-current="page" href="#">Home</a>
@@ -57,15 +97,11 @@
         </div>
         <div class="button_form">
           <form class="d-flex">
-            <!-- <div class="icon_div">
-                <a><i class="fa-solid fa-magnifying-glass"></i></a>
-              </div> -->
             <div class="nav_btn_div">
               <a><button class="nav_btn">Join Us Now</button></a>
             </div>
           </form>
         </div>
-
       </div>
     </nav>
   </header>
@@ -422,23 +458,24 @@
               href="mailto:info@email.com">info@email.com</a></span></div>
       </div>
       <div class="contact-rBox">
-        <form action="#">
+        <form action="#" type="submit" onsubmit="sendMail(); reset(); return false;">
+          <input type="hidden" id="g-token" name="g-token"/>
           <div class="column1">
             <div class="input1">
               <span class="style-input">
-                <input type="text" placeholder="Name*" required>
+                <input id="name" type="text" placeholder="Name*" required>
               </span>
             </div>
             <div class="input1">
               <span class="style-input">
-                <input type="text" placeholder="Email Address*" required>
+                <input id="email" type="text" placeholder="Email Address*" required>
               </span>
             </div>
           </div>
           <div class="column1">
             <div class="input1">
               <span class="style-input">
-                <input type="text" placeholder="Phone*" required>
+                <input id="phone" type="text" placeholder="Phone*" required>
               </span>
             </div>
             <div class="input1">
@@ -458,7 +495,7 @@
           <div class="column1">
             <div class="input1 textarea">
               <span class="style-textarea style-input">
-                <textarea cols="10" rows="3" placeholder="How can we help you? Feel free to get in touch!"
+                <textarea id="message" cols="10" rows="3" placeholder="How can we help you? Feel free to get in touch!"
                   required></textarea>
               </span>
             </div>
@@ -529,7 +566,7 @@
     <div class="bottom_footer">AncoraThemes © 2023. All Rights Reserved.</div>
   </footer>
   <script src="./script.js"></script>
- 
+  <!-- <script src="https://smtpjs.com/v3/smtp.js"></script> -->
 </body>
 
 </html>
